@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C63FC232C32EDFA00106B6A /* ShortInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C63FC222C32EDFA00106B6A /* ShortInfoTableViewController.swift */; };
 		6C6EC1D92C31DB87005FF567 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6EC1D82C31DB87005FF567 /* AppDelegate.swift */; };
 		6C6EC1DB2C31DB87005FF567 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6EC1DA2C31DB87005FF567 /* SceneDelegate.swift */; };
-		6C6EC1DD2C31DB87005FF567 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6EC1DC2C31DB87005FF567 /* ViewController.swift */; };
 		6C6EC1E02C31DB87005FF567 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6C6EC1DF2C31DB87005FF567 /* Base */; };
 		6C6EC1E22C31DB88005FF567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C6EC1E12C31DB88005FF567 /* Assets.xcassets */; };
 		6C6EC1E52C31DB88005FF567 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6C6EC1E42C31DB88005FF567 /* Base */; };
+		6C6EC1ED2C31DFFC005FF567 /* TabBarControllerUITabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6EC1EC2C31DFFC005FF567 /* TabBarControllerUITabBarController.swift */; };
+		6C6EC1EF2C31E06D005FF567 /* PersonsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6EC1EE2C31E06D005FF567 /* PersonsListTableViewController.swift */; };
+		6C6EC1F12C31E091005FF567 /* AboutContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6EC1F02C31E091005FF567 /* AboutContactViewController.swift */; };
+		6C6EC1F32C31E100005FF567 /* Data Manafer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6EC1F22C31E100005FF567 /* Data Manafer.swift */; };
+		6C6EC1F52C31E123005FF567 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6EC1F42C31E123005FF567 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C63FC222C32EDFA00106B6A /* ShortInfoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortInfoTableViewController.swift; sourceTree = "<group>"; };
 		6C6EC1D52C31DB87005FF567 /* ContactsApp.V6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsApp.V6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C6EC1D82C31DB87005FF567 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C6EC1DA2C31DB87005FF567 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6C6EC1DC2C31DB87005FF567 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6C6EC1DF2C31DB87005FF567 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C6EC1E12C31DB88005FF567 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C6EC1E42C31DB88005FF567 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C6EC1E62C31DB88005FF567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C6EC1EC2C31DFFC005FF567 /* TabBarControllerUITabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarControllerUITabBarController.swift; sourceTree = "<group>"; };
+		6C6EC1EE2C31E06D005FF567 /* PersonsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListTableViewController.swift; sourceTree = "<group>"; };
+		6C6EC1F02C31E091005FF567 /* AboutContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutContactViewController.swift; sourceTree = "<group>"; };
+		6C6EC1F22C31E100005FF567 /* Data Manafer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data Manafer.swift"; sourceTree = "<group>"; };
+		6C6EC1F42C31E123005FF567 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +66,18 @@
 		6C6EC1D72C31DB87005FF567 /* ContactsApp.V6 */ = {
 			isa = PBXGroup;
 			children = (
-				6C6EC1D82C31DB87005FF567 /* AppDelegate.swift */,
-				6C6EC1DA2C31DB87005FF567 /* SceneDelegate.swift */,
-				6C6EC1DC2C31DB87005FF567 /* ViewController.swift */,
+				6C6EC1EC2C31DFFC005FF567 /* TabBarControllerUITabBarController.swift */,
+				6C6EC1EE2C31E06D005FF567 /* PersonsListTableViewController.swift */,
+				6C6EC1F02C31E091005FF567 /* AboutContactViewController.swift */,
+				6C63FC222C32EDFA00106B6A /* ShortInfoTableViewController.swift */,
 				6C6EC1DE2C31DB87005FF567 /* Main.storyboard */,
-				6C6EC1E12C31DB88005FF567 /* Assets.xcassets */,
 				6C6EC1E32C31DB88005FF567 /* LaunchScreen.storyboard */,
+				6C6EC1F22C31E100005FF567 /* Data Manafer.swift */,
+				6C6EC1F42C31E123005FF567 /* Person.swift */,
 				6C6EC1E62C31DB88005FF567 /* Info.plist */,
+				6C6EC1E12C31DB88005FF567 /* Assets.xcassets */,
+				6C6EC1DA2C31DB87005FF567 /* SceneDelegate.swift */,
+				6C6EC1D82C31DB87005FF567 /* AppDelegate.swift */,
 			);
 			path = ContactsApp.V6;
 			sourceTree = "<group>";
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C6EC1DD2C31DB87005FF567 /* ViewController.swift in Sources */,
+				6C63FC232C32EDFA00106B6A /* ShortInfoTableViewController.swift in Sources */,
+				6C6EC1ED2C31DFFC005FF567 /* TabBarControllerUITabBarController.swift in Sources */,
 				6C6EC1D92C31DB87005FF567 /* AppDelegate.swift in Sources */,
 				6C6EC1DB2C31DB87005FF567 /* SceneDelegate.swift in Sources */,
+				6C6EC1F12C31E091005FF567 /* AboutContactViewController.swift in Sources */,
+				6C6EC1EF2C31E06D005FF567 /* PersonsListTableViewController.swift in Sources */,
+				6C6EC1F52C31E123005FF567 /* Person.swift in Sources */,
+				6C6EC1F32C31E100005FF567 /* Data Manafer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,9 +327,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Swiftbook.ContactsApp-V6";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -335,9 +359,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Swiftbook.ContactsApp-V6";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
